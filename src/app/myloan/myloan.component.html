@@ -1,0 +1,7 @@
+<p>myloan works!</p>
+<div>
+  <button (click)="toggle()">{{ item.title }}</button>
+  <p *ngIf="item.isVisible">
+    {{ item.description }}
+  </p>
+</div>
